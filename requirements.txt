@@ -1,0 +1,4 @@
+ast == 33.2.
+nltk == 3.3
+gitpython == 2.1.11
+
