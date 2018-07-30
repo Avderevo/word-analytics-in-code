@@ -17,7 +17,7 @@ Statistics are output to the terminal
 
 <b>Install modules:</b>
 
-$ pip3 install requirements.txt
+$ pip install --upgrade -r requirements.txt
 
 <b>Run main.py with an argument in the form of a link to the repository</b>
 
