@@ -10,8 +10,7 @@ def get_all_words_in_listnames(listnames):
     list_words = []
     for name in listnames:
         list_words.append(name.split('_'))
-    words = flat(list_words)
-
+    words = [x for x in flat(list_words) if x != '']
     return words
 
 
