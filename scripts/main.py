@@ -27,5 +27,8 @@ def main(url):
 
 
 if __name__ == '__main__':
-    GIT_URL = 'https://github.com/Avderevo/activity-rating-site'
+    if len(sys.argv) > 1:
+        GIT_URL = sys.argv[1]
+    else:
+        GIT_URL = 'https://github.com/Avderevo/word-statistic'
     main(GIT_URL)
