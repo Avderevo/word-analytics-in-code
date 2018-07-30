@@ -1,6 +1,7 @@
 from downloader import clone_repo_to_folder
 from ast_parser import *
 from words_anlitics import *
+import sys
 
 
 def get_trees_analytics(funk, trees, top_size=10):
