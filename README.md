@@ -11,8 +11,6 @@ Generates statistics of the most frequently used words in names.
 
 Module <b>NLTC</b> analyzes the most frequent verbs and nouns in names.
 
-Statistics are output to the terminal
-
 
 <b>Install modules:</b>
 
