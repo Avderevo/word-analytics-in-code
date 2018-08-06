@@ -17,11 +17,11 @@ def get_trees_analytics(funk, trees, top_size=10):
     logging.info(f + list_words[1].upper() + f)
     logging.info('\n All {} {} {}' .format(list_words[1], f, len(list_words[0])))
     logging.info('Unique {} {} {}' .format (list_words[1], f, len(set(list_words[0]))))
-    logging.info('Ten most often {} {} \n {}' .format(list_words[1], f, dict_uniq_words(list_words[0])))
+    logging.info('Ten most often {} {} {}' .format(list_words[1], f, dict_uniq_words(list_words[0])))
     logging.info('Unique verbs {} {}' .format(f, len(set(list_verbs))))
-    logging.info('Most often verbs {} \n {}' .format(f, dict_uniq_words(list_verbs)))
+    logging.info('Most often verbs {} {}' .format(f, dict_uniq_words(list_verbs)))
     logging.info('Unique noun {} {}' .format(f, len(set(list_noun))))
-    logging.info('Most often noun {} \n {} \n\n' .format(f, dict_uniq_words(list_noun)))
+    logging.info('Most often noun {} {} \n\n' .format(f, dict_uniq_words(list_noun)))
 
 
 def main(url):
