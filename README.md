@@ -21,11 +21,12 @@
 
 <h4>Install modules:</h4>
 
-
+```
 $ pip install --upgrade -r requirements.txt
-
+```
 
 <h4>Run main.py with an argument in the form of a link to the repository</h4>
 
-
+```
 $ python3 main.py https://github.com/Avderevo/word-statistic
+```
